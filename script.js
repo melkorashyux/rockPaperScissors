@@ -11,4 +11,15 @@ function getComputerChoice() {
     }
 
 console.log(getComputerChoice())
-function
+
+function getHumanChoice () {
+  let answer = prompt("Write Rock, Paper, or Scissors", "Write here").toLowerCase()
+if (answer === "rock") {
+  return ("Rock");
+ } else if (answer === "paper") {
+    return("Paper");
+} else if (answer === "scissors") {
+    return("Scissors")
+  }
+}
+console.log(getHumanChoice());
